@@ -36,7 +36,7 @@ try {
 const startServer = () => {
 
   app.listen(4003, () => {
-    console.log('Listening on 4003');
+    console.log('Moderation is working on port : 4003');
   });
 }
 startServer();

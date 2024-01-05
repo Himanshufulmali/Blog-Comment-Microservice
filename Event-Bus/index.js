@@ -32,7 +32,7 @@ app.get("/events", (req, res) => {
 const startServer = () => {
 
   app.listen(4005, () => {
-    console.log("Listening on 4005");
+    console.log("Event-Bus is started on port : 4005");
   });
 }
 

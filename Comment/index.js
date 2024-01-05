@@ -82,7 +82,7 @@ app.post("/events", async (req, res) => {
 const startServer = () => {
 
   app.listen(4001, () => {
-    console.log("Listening on 4001");
+    console.log("Comment service is started on port 4001");
   });
   
 }
